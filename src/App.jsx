@@ -15,7 +15,7 @@ const App = () => {
 
   // Toggle function
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
+    setDarkMode (previousState => (!previousState));
   }
 
   // Add to cart function
